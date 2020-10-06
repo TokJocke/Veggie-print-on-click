@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+        }
+        #containerMain {
+            display: flex;
+            flex-direction: column;
+            background-color: teal;
+            min-height: 95vh;
+            max-width: 100%;
+            font-size: 4em;
+            align-items: center;
+        }
+        #containerMain > div {
+            margin-top: 5vh;
+            background-color: thistle;
+            padding: 20px;
+        }
+        #containerHead {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-size: 3em;
+            height: 5vh;
+        }
+
+        #containerHead > div:hover {
+            background-color: lime;
+            cursor: pointer;
+        }
+    </style>
+
+
+</head>
+<body>
+    
+<div class="container">
+    
+    <div id="containerHead">
+        
+    </div>
+
+    <div id="containerMain">
+
+    </div>
+
+</div>
+
+
+
+
+</body>
+</html>
